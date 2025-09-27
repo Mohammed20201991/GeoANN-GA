@@ -63,10 +63,10 @@ pip install -r requirements.txt
 
 ##  Author
 
-**Omar Hamed**  
+**First Author**  
 Researcher in Geotechnical Engineering
 
-**Mohammed A.S Al-Hitawi**  
+**Second Author**  
 Researcher in Artificial Intelligence 
 
 ---
@@ -87,3 +87,4 @@ If you use this repository, please cite:
 ```
 
 ---
+
