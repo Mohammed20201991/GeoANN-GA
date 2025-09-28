@@ -64,10 +64,10 @@ pip install -r requirements.txt
 ##  Author
 
 **First Author**  
-Researcher in Geotechnical Engineering
+Researcher in ***
 
 **Second Author**  
-Researcher in Artificial Intelligence 
+Researcher in *** 
 
 ---
 
@@ -77,14 +77,15 @@ If you use this repository, please cite:
 
 ```
 @misc{alhitawi2025geoann-ga,
-  author       = {Omar Hamed, Mohammed A.S. Al-Hitawi, , },
+  author       = {***, ****, , },
   title        = {GeoANN-GA: Artificial Neural Networks + Genetic Algorithms for Collapse Potential Prediction},
   year         = {2025},
   howpublished = {GitHub},
   note         = {Hybrid ANN + GA model for geotechnical prediction},
-  url          = {https://github.com/Mohammed20201991/GeoANN-GA}
+  url          = {https://github.com/user/GeoANN-GA}
 }
 ```
 
 ---
+
 
