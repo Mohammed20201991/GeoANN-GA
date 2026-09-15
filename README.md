@@ -5,7 +5,22 @@
 </div>
 
 ---
-
+GeoANN-GA/
+│
+├── train_revised.py
+│     ├── GA-ANN
+│     ├── Ordinary ANN
+│     └── Random Forest
+│
+├── fuzzy_revised.py
+│     └── FNN
+│
+├── linear_regression.py
+│     └── Linear Regression baseline
+│
+└── mc_dropout.py
+      └── Proper MC Dropout uncertainty analysis
+      
 ## Overview
 
 **GeoANN-GA** is a lightweight yet powerful predictive modeling project that combines **Artificial Neural Networks (ANNs)** with **Genetic Algorithms (GA)** to predict **soil collapse potential**. This hybrid approach optimizes ANN weights and hyperparameters using GA, enabling robust predictions even with complex, nonlinear geotechnical datasets.
