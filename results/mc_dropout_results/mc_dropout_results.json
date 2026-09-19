@@ -1,0 +1,39 @@
+{
+  "model": "MC Dropout ANN",
+  "seed": 42,
+  "architecture": {
+    "input_features": 6,
+    "H1": 54,
+    "H2": 51
+  },
+  "learning_rate": 0.0098003061,
+  "dropout_rate": 0.2,
+  "mc_runs": 200,
+  "total_observations": 600,
+  "development_n": 420,
+  "test_n": 180,
+  "preprocessing": {
+    "suction_transform": "log1p",
+    "scaler": "StandardScaler",
+    "scaler_fit_on": "development_training_subset_only"
+  },
+  "test_metrics": {
+    "RMSE": 4.976746272791604,
+    "MAE": 1.789926528930664,
+    "R2": 0.8708881139755249
+  },
+  "uncertainty": {
+    "interval": "empirical 95% MC Dropout interval",
+    "coverage": 0.7611111402511597,
+    "coverage_percent": 76.11111450195312,
+    "mean_interval_width": 6.540290832519531,
+    "median_interval_width": 2.965331554412842
+  },
+  "CP_greater_than_50": {
+    "n": 6,
+    "RMSE": 6.498451048352371,
+    "MAE": 4.9254021644592285,
+    "R2": 0.266276478767395,
+    "coverage_95": 1.0
+  }
+}

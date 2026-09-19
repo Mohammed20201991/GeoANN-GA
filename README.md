@@ -85,7 +85,7 @@ The repository includes implementations of the following predictive models:
 
 The final models were evaluated using the independent **30% test set (180 observations)**.
 
-| Model          |       RMSE |        MAE |         R² |
+| Model          |    RMSE(%) |    MAE (%) |      R²    |
 | -------------- | ---------: | ---------: | ---------: |
 | **GA-ANN**     | **1.2203** | **0.6177** | **0.9922** |
 | RFR            |     2.8681 |     1.0441 |     0.9571 |
@@ -233,7 +233,7 @@ If you use this repository or its implementation in your research, please cite:
 
 # License
 
-Please add an appropriate license before distributing or reusing the source code.
+****
 
 ---
 

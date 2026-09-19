@@ -1,0 +1,19 @@
+{
+  "best_mfs_per_feature": 3,
+  "best_learning_rate": 0.002,
+  "test_metrics": {
+    "RMSE": 9.135020149931167,
+    "MAE": 2.6633100509643555,
+    "R2": 0.5649951696395874,
+    "MAPE_%": 333.4426574707031
+  },
+  "high_collapse_gt_50": {
+    "n": 6,
+    "threshold": 50.0,
+    "high_RMSE": 48.023597003354766,
+    "high_MAE": 47.751007080078125,
+    "high_R2": -39.070255279541016
+  },
+  "split": "70% development / 30% independent test",
+  "preprocessing": "log1p(Suction) then StandardScaler fitted only on training folds"
+}

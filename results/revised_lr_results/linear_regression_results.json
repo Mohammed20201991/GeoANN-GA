@@ -1,0 +1,23 @@
+{
+  "model": "Ordinary Least Squares Linear Regression",
+  "seed": 42,
+  "total_observations": 600,
+  "development_n": 420,
+  "test_n": 180,
+  "preprocessing": {
+    "suction_transform": "log1p",
+    "scaler": "StandardScaler",
+    "scaler_fit_on": "development_set_only"
+  },
+  "test_metrics": {
+    "RMSE": 9.642441631270687,
+    "MAE": 4.801710350094401,
+    "R2": 0.5153266653224906
+  },
+  "CP_greater_than_50": {
+    "n": 6,
+    "RMSE": 35.26566671372055,
+    "MAE": 34.87299283802697,
+    "R2": -20.608118221754747
+  }
+}
