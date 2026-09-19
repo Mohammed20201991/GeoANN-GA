@@ -1,0 +1,76 @@
+{
+  "timestamp": "20250820_073001",
+  "training_time_minutes": 0.5236660758654277,
+  "config": {
+    "mfs_per_feature": 2,
+    "batch_size": 64,
+    "max_epochs": 500,
+    "lr": 0.005,
+    "weight_decay": 1e-05,
+    "patience": 50,
+    "warmup_epochs": 15,
+    "dropout_rate": 0.25,
+    "rule_dropout_rate": 0.1,
+    "use_feature_attention": true,
+    "use_rule_importance": true,
+    "use_ensemble": true,
+    "ensemble_size": 3,
+    "use_feature_interactions": true,
+    "use_adaptive_learning": true,
+    "use_advanced_regularization": true
+  },
+  "metrics": {
+    "train": {
+      "RMSE": 8.74651594280233,
+      "MAE": 2.6371045112609863,
+      "R2": 0.5424642562866211,
+      "MAPE_%": 117.34651184082031
+    },
+    "validation": {
+      "RMSE": 6.79296875,
+      "MAE": 2.0631587505340576,
+      "R2": 0.6055364012718201,
+      "MAPE_%": 224.39480590820312
+    },
+    "test": {
+      "RMSE": 10.368453936635529,
+      "MAE": 3.6294400691986084,
+      "R2": 0.5224323272705078,
+      "MAPE_%": 98.49817657470703
+    }
+  },
+  "feature_names": [
+    "Suction (kPa)",
+    "Silica fume (%)",
+    "Lime (%)",
+    "Gypsum content (%)",
+    "Applied vertical stress (kPa)",
+    "Degree of Saturation (%)",
+    "Silica_Ratio",
+    "Lime_Ratio",
+    "Gypsum_Ratio",
+    "Stress_Saturation_Interaction",
+    "Suction_Stress_Interaction"
+  ],
+  "dataset_info": {
+    "total_samples": 600,
+    "train_samples": 420,
+    "validation_samples": 90,
+    "test_samples": 90,
+    "original_features": [
+      "Suction (kPa)",
+      "Silica fume (%)",
+      "Lime (%)",
+      "Gypsum content (%)",
+      "Applied vertical stress (kPa)",
+      "Degree of Saturation (%)"
+    ],
+    "engineered_features": [
+      "Silica_Ratio",
+      "Lime_Ratio",
+      "Gypsum_Ratio",
+      "Stress_Saturation_Interaction",
+      "Suction_Stress_Interaction"
+    ]
+  }
+}

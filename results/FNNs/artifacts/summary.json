@@ -1,0 +1,33 @@
+{
+  "train": {
+    "RMSE": 11.999285358765903,
+    "MAE": 3.853579521179199,
+    "R2": 0.22180140018463135,
+    "MAPE_%": 689.106201171875
+  },
+  "val": {
+    "RMSE": 9.115237932222897,
+    "MAE": 3.1535165309906006,
+    "R2": 0.3246345520019531,
+    "MAPE_%": 1161.87890625
+  },
+  "test": {
+    "RMSE": 14.356740483635313,
+    "MAE": 5.1571364402771,
+    "R2": 0.1960086226463318,
+    "MAPE_%": 389.1484375
+  },
+  "artifacts": {
+    "model": "/content/drive/MyDrive/NNsGA/FNNs/artifacts/tsk_fuzzy_regressor.pt",
+    "loss_curves": "/content/drive/MyDrive/NNsGA/FNNs/artifacts/loss_curves.png",
+    "parity_train": "/content/drive/MyDrive/NNsGA/FNNs/artifacts/parity_train.png",
+    "parity_val": "/content/drive/MyDrive/NNsGA/FNNs/artifacts/parity_val.png",
+    "parity_test": "/content/drive/MyDrive/NNsGA/FNNs/artifacts/parity_test.png",
+    "residuals_train": "/content/drive/MyDrive/NNsGA/FNNs/artifacts/residuals_train.png",
+    "residuals_val": "/content/drive/MyDrive/NNsGA/FNNs/artifacts/residuals_val.png",
+    "residuals_test": "/content/drive/MyDrive/NNsGA/FNNs/artifacts/residuals_test.png",
+    "perm_importance": "/content/drive/MyDrive/NNsGA/FNNs/artifacts/perm_importance.png",
+    "perm_importance_csv": "/content/drive/MyDrive/NNsGA/FNNs/artifacts/permutation_importance.csv",
+    "predictions_csv": "/content/drive/MyDrive/NNsGA/FNNs/artifacts/predictions.csv"
+  }
+}
